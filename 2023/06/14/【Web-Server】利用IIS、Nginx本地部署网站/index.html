@@ -463,7 +463,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>Update Date:&nbsp;&nbsp;
-                    2023-07-11
+                    2023-07-13
                 </div>
                 
 
@@ -508,7 +508,53 @@
 <li>wwwroot 默认的Web站点根目录 存储Web应用程序的文件和内容<br>其中你可以利用log日志来初步查看你的站点安全<br><img src="/../data/img/2023/7/22.png" alt="logs目录"><br>W3SVC1和W3SVC2分别对应我们目前创建的两个站点<br><img src="/../data/img/2023/7/23.png" alt="站点日志"><br><img src="/../data/img/2023/7/24.png" alt="W3SVC2"><br>由命名规则可知 日志默认是按天生成 日志独立于站点 删除站点目录和应用 日志还是存在 所以日志是手动删除 确认后再谨慎删除 毕竟数据无价嘛对吧<br>当然了 如果你的打开你的日志发现时间比你的早八个小时你可以在IIS的日志设置里设置本地时间 然后勾上就好了 反应有些延迟 但不过这样就好啦<br><img src="/../data/img/2023/7/25.png" alt="关于日志日期"><br><img src="/../data/img/2023/7/26.png" alt="日志"><br><img src="/../data/img/2023/7/27.png" alt="本地时间"><br>或许以后实际工作中会涉及Cluster（集群） 将多个服务器组合以提供高可用性和负载均衡的功能 但那不在本篇教程范围内 有兴趣可以自行了解探索</li>
 </ul>
 <h3 id="完"><a href="#完" class="headerlink" title="完"></a>完</h3><p>觉得本篇文章不错的 挺一个bo~</p>
-<h2 id="Nginx篇"><a href="#Nginx篇" class="headerlink" title="Nginx篇"></a>Nginx篇</h2>
+<h2 id="Nginx篇"><a href="#Nginx篇" class="headerlink" title="Nginx篇"></a>Nginx篇</h2><h3 id="介绍-1"><a href="#介绍-1" class="headerlink" title="介绍"></a>介绍</h3><p>Nginx是一个轻量级的服务器 能够有效地处理高并发和大流量情况 并且使用的内存较少<br>下面这是一些常见的Web服务器 可以了解下<br><img src="/../data/img/2023/7/85.png" alt="常见Web服务器"><br>本篇呢 主要介绍Nginx 适用于类似树莓派之类性能吃紧的linux部署网站</p>
+<h3 id="开始-1"><a href="#开始-1" class="headerlink" title="开始"></a>开始</h3><p>ssh连接linux<br><img src="/../data/img/2023/7/86.png" alt="ssh连接linux"><br>好我们现在开始<br>先安装依赖，更新yum软件包管理器后安装</p>
+<pre class=" language-epel"><code class="language-epel">yum install epel-release
+
+yum update
+
+yum install nginx
+</code></pre>
+<p><img src="/../data/img/2023/7/87.png" alt="安装成功"></p>
+<p>启动nginx 并配置开机自启</p>
+<pre class=" language-systemctl"><code class="language-systemctl">systemctl start nginx
+
+systemctl enable nginx
+</code></pre>
+<p><img src="/../data/img/2023/7/88.png" alt="运行成功"><br>其他命令</p>
+<pre class=" language-other"><code class="language-other">停止服务
+systemctl stop nginx   
+查看服务状态
+systemctl status nginx
+</code></pre>
+<p>打开浏览器访问虚机地址<br><img src="/../data/img/2023/7/89.png" alt="访问成功"><br><code>ps</code> 在CentOS上 nginx默认显示的是CentOS的页面<br>站点根目录 默认在&#x2F;usr&#x2F;share&#x2F;nginx&#x2F;html&#x2F;下的index.html 可根据需要更改<br><img src="/../data/img/2023/7/90.png" alt="添加自己的网页"><br><img src="/../data/img/2023/7/91.png" alt="访问成功"><br><code>ps</code> vim命令 的编辑模式是先敲一个字母 左下角显示插入 即可编辑<br>退出编辑模式 先按下esc键 然后输入:wq  在一些权限不够的情况下 需要加叹号:wq!<br><img src="/../data/img/2023/7/92.png" alt="vim"><br><img src="/../data/img/2023/7/93.png" alt="vim"></p>
+<h3 id="更多Tips"><a href="#更多Tips" class="headerlink" title="更多Tips"></a>更多Tips</h3><p>部署多站点<br>先进入&#x2F;etc&#x2F;nginx&#x2F;新建一个文件夹 专门放站点</p>
+<pre class=" language-sites"><code class="language-sites">cd /etc/nginx/
+
+mkdir sites
+</code></pre>
+<p>进入sites目录 放置站点文件</p>
+<pre class=" language-conf"><code class="language-conf">cd sites
+</code></pre>
+<p>配置在&#x2F;etc&#x2F;nginx下的nginx.conf文件<br>找http下的server块 复制该块 把两个80端口改成我们要映射的81端口<br><img src="/../data/img/2023/7/94.png" alt="配置nginx.conf"><br>然后我们关闭防火墙在浏览器访问</p>
+<pre class=" language-firewall"><code class="language-firewall">systemctl status firewalld
+
+systemctl stop firewalld
+
+systemctl start firewalld
+</code></pre>
+<p><img src="/../data/img/2023/7/95.png" alt="81端口部署成功"></p>
+<p>当然啦 我们可以开启防火墙开放一个81端口</p>
+<pre class=" language-port"><code class="language-port">firewall-cmd --zone=public --add-port=81/tcp --permanent
+
+firewall-cmd --reload
+
+firewall-cmd --zone=public --list-ports
+</code></pre>
+<p><img src="/../data/img/2023/7/96.png" alt="81端口开行成功"><br><img src="/../data/img/2023/7/95.png" alt="81端口部署成功"><br>试试吧 81端口还是可以访问哒~</p>
+<h2 id="完-1"><a href="#完-1" class="headerlink" title="完"></a>完</h2><p>IIS、Nginx简单本地部署站点就到这啦 如果你想发布到公网 还需要配合带有公网IP的服务器和一个域名<br>觉得不错挺一个bo~<br>完结撒花~</p>
+
                 
             </div>
             <hr/>
