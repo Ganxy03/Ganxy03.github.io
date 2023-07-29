@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="【Vmware】创建虚机（以CentOS7为例）, Hexo">
+    <meta name="keywords" content="【frp】内网穿透（以家里的CentOS7为例）, Hexo">
     <meta name="description" content="主要记录学习 间杂一些生活">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>【Vmware】创建虚机（以CentOS7为例） | Hexo</title>
+    <title>【frp】内网穿透（以家里的CentOS7为例） | Hexo</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -323,12 +323,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/2.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/11.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">【Vmware】创建虚机（以CentOS7为例）</h1>
+                    <h1 class="description center-align post-title">【frp】内网穿透（以家里的CentOS7为例）</h1>
                 </div>
             </div>
         </div>
@@ -456,14 +456,14 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2023-07-11
+                    2023-07-27
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>Update Date:&nbsp;&nbsp;
-                    2023-07-12
+                    2023-07-29
                 </div>
                 
 
@@ -487,41 +487,185 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>以CentOS7为例 用Vmware创建虚拟机<br>为了不占据C系统盘的空间也方便管理 你可以像我这样 在Vmware目录下创建两个文件夹<br><img src="/../data/img/2023/7/31.png" alt="Vmware"><br>这里一个文件夹就是一个虚机<br><img src="/../data/img/2023/7/32.png" alt="虚拟机目录"><br><img src="/../data/img/2023/7/33.png" alt="镜像目录"><br>这里我已经提前把此次要安装的镜像放在镜像的文件夹下了<br>我们现在开始</p>
-<h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><h3 id="配置VMware上的linux"><a href="#配置VMware上的linux" class="headerlink" title="配置VMware上的linux"></a>配置VMware上的linux</h3><p>打开VMware 选择文件&#x2F;创建虚拟机 或者直接右边的创建虚拟机<br><img src="/../data/img/2023/7/34.png" alt="创建虚拟机"><br>我们选择自定义<br><img src="/../data/img/2023/7/35.png" alt="自定义"><br>兼容性默认<br><img src="/../data/img/2023/7/36.png" alt="下一步"><br>选择第二个安装程序光盘镜像文件 在浏览里选择放在VMware目录镜像文件夹下的CentOS7的ISO镜像<br><img src="/../data/img/2023/7/37.png" alt="选择镜像"><br>填写用户虚机的名字 和你的用户名及密码<br><img src="/../data/img/2023/7/38.png" alt="用户名及密码"><br>这里的名称随便（没所谓 无伤大雅）位置是指虚拟机安装的位置 把它放到我们准备好的VMware文件下的虚拟机文件夹<br><img src="/../data/img/2023/7/39.png" alt="虚拟机位置"><br><img src="/../data/img/2023/7/40.png" alt="虚拟机位置"><br>配置处理器 这里的处理器会分去物理机的性能 看着给 后面可以改<br><img src="/../data/img/2023/7/41.png" alt="处理器"><br>配置运存虚机Linux 1G够了<br><img src="/../data/img/2023/7/42.png" alt="运存"><br>配置网络类型 默认就好 不用过多配置 后面可改<br><img src="/../data/img/2023/7/43.png" alt="网络类型"><br>默认就好<br><img src="/../data/img/2023/7/44.png" alt="I/O控制器类型"><br>默认就好<br><img src="/../data/img/2023/7/45.png" alt="磁盘类型"><br>默认就好<br><img src="/../data/img/2023/7/46.png" alt="选择磁盘"><br>默认就好 你存储不够用10G也行 系统够装就好<br><img src="/../data/img/2023/7/47.png" alt="磁盘容量"><br>选择虚拟机的磁盘存储位置 就在这个虚机的文件夹下建个位置好了<br><img src="/../data/img/2023/7/48.png" alt="磁盘位置"><br><img src="/../data/img/2023/7/49.png" alt="磁盘位置"><br>这里是前面配置的清单 以后大部分都可以改的 麻不麻烦而已<br><img src="/../data/img/2023/7/50.png" alt="完成配置"><br>点击完成 就会开始装系统 等待就好 我们前面都配置过了 VMware会帮我们填充装系统时的信息 全程不用动 等给五分钟左右就好了<br><img src="/../data/img/2023/7/51.png" alt="装系统ing"><br><img src="/../data/img/2023/7/52.png" alt="装系统ing"><br><img src="/../data/img/2023/7/53.png" alt="装系统ing"><br><img src="/../data/img/2023/7/54.png" alt="装系统ing"><br>等到装完了之后就会跳到用户登陆的界面点开输入密码就好了<br><img src="/../data/img/2023/7/55.png" alt="装系统ing"><br><img src="/../data/img/2023/7/56.png" alt="装系统ing"><br>那么就进到系统里面来了 引导欢迎界面跟Windows差不多 不用看 叉掉就好了<br><img src="/../data/img/2023/7/57.png" alt="欢迎引导界面"></p>
-<h3 id="其他基础设置"><a href="#其他基础设置" class="headerlink" title="其他基础设置"></a>其他基础设置</h3><h4 id="改时间"><a href="#改时间" class="headerlink" title="改时间"></a>改时间</h4><p>时间不太对 我们在设置里改个时区<br><img src="/../data/img/2023/7/58.png" alt="设置"><br>点开details<br><img src="/../data/img/2023/7/59.png" alt="details"><br>选额date&amp;time 再点unlock 输入密码以获取权限 关掉自动 自己手动选择时区 选完点个done(完成)就好了 当然了 设置改好了可以顺手点个lock<br><img src="/../data/img/2023/7/60.png" alt="date&amp;time"><br><img src="/../data/img/2023/7/61.png" alt="输入密码"><br><img src="/../data/img/2023/7/62.png" alt="选择时区"><br><img src="/../data/img/2023/7/63.png" alt="设置OK"></p>
-<h4 id="设置中文"><a href="#设置中文" class="headerlink" title="设置中文"></a>设置中文</h4><p>可能你英语不好 没关系 这里特别关怀 有中文哒~<br>同样在设置里 点开language<br><img src="/../data/img/2023/7/64.png" alt="language"><br>选择汉语 点击done（完成）<br><img src="/../data/img/2023/7/65.png" alt="汉语"><br>重启一下（restart）<br><img src="/../data/img/2023/7/66.png" alt="restart"><br>重启么 要退出当前用户账号 退呗<br><img src="/../data/img/2023/7/67.png" alt="log out"><br>重新登回来 提示随系统更改名称 换呗<br><img src="/../data/img/2023/7/68.png" alt="换名称"><br>搞定<br><img src="/../data/img/2023/7/69.png" alt="BingGo~"><br><code>ps题外话 </code><br>其实Linux比windows的优势在运行高效的方面 所以一般不用带桌面的系统 本次教程用的镜像呢 其实也是可以选择不带桌面的 但是那对新人不太友好 感兴趣的可以自行琢磨<br>但是！ 要是初体验呢 我们可以开启ssh通道 使用黑咕隆咚的命令框 浅浅踩一下无桌面的系统~ 那么咱们继续</p>
-<h4 id="开启SSH服务"><a href="#开启SSH服务" class="headerlink" title="开启SSH服务"></a>开启SSH服务</h4><p>右键打开终端<br><img src="/../data/img/2023/7/70.png" alt="终端"><br>这里我们会用到yum的包管理工具 人家大名全名叫Yellowdog Updater, Modified<br>所以我们来看看它 输入<code>yum -v</code></p>
-<pre class=" language-yum"><code class="language-yum">yum -v
+                <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>给家里的电脑装了双系统 默认CentOS的启动 寻思着给它来了个每天自启的任务 顺便给它用frp进行内网穿透 知道以前有过这样的文章 但写的太乱 今天再操手一遍流程</p>
+<h2 id="环境"><a href="#环境" class="headerlink" title="环境"></a>环境</h2><p>服务端：CentOS7(腾讯云)<br>客户端：CentOS7(家里的台式机)</p>
+<h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><p>今天的配置都不错 都是8G的运存</p>
+<h3 id="服务端"><a href="#服务端" class="headerlink" title="服务端"></a>服务端</h3><p>先下载frp服务端</p>
+<pre class=" language-yum"><code class="language-yum">yum update -y
+
+yum install -y wget unzip
+
+wget https://github.com/fatedier/frp/releases/download/v0.36.0/frp_0.36.0_linux_amd64.tar.gz
+
+tar -xvf frp_0.36.0_linux_amd64.tar.gz
+
+rm -f frp_0.36.0_linux_amd64.tar.gz
+
+cd frp_0.36.0_linux_amd64
+
+rm -f frc
+
+rm -f frc.ini
+
+rm -f frc.ini.full
 </code></pre>
-<p><img src="/../data/img/2023/7/71.png" alt="yum"><br>就打印出了yum的版本<br>这是CentOS和Fedora都在用的包管理工具 系统预装好的<br>接下来我们需要用它来安装openssh-server的软件包<br>首先我们先列出yum包里是否安装了openssh</p>
-<pre class=" language-openssh"><code class="language-openssh">sudo yum list installed openssh-server
+<p>配置配置文件</p>
+<pre class=" language-frps.ini"><code class="language-frps.ini">vim frps.ini
+
+
+输入以下内容
+
+[common]
+bind_port = 7000
+vhost_http_port = 7001
+vhost_https_port = 7002
+vhost_http_timeout = 60
+heartbeat_timeout = 90
+token = 123456
+dashboard_port = 7500
+dashboard_user = admin
+dashboard_pwd = admin
+
+:wq!
 </code></pre>
-<p><img src="/../data/img/2023/7/72.png" alt="输入密码"><br>看不见密码是linux都在用的保护机制 就像平常输入密码转星号一样<br>报错了 所以直接切换root账号 启用最高权限了</p>
-<pre class=" language-root"><code class="language-root">su
+<p>使用配置自启</p>
+<pre class=" language-systemd"><code class="language-systemd">
+使用systemd配置开机自启
+yum install systemd
+
+vim /etc/systemd/system/frps.service
+
+
+写入以下内容
+[Unit]
+# 服务名称，可自定义
+Description = frp server
+After = network.target syslog.target
+Wants = network.target
+
+[Service]
+Type = simple
+# 启动frps的命令，需修改为您的frps的安装路径
+ExecStart = /path/to/frps -c /path/to/frps.ini
+
+[Install]
+WantedBy = multi-user.target
+
+使用 systemd 命令，管理 frps
+
+# 启动frp
+systemctl start frps
+# 停止frp
+systemctl stop frps
+# 重启frp
+systemctl restart frps
+# 查看frp状态
+systemctl status frps
+
+
+配置 frps 开机自启。
+
+systemctl enable frps
 </code></pre>
-<p>直接输入<code>su</code> 然后输入你设置的密码就好了<br>然后直接再输入刚才的命令 去掉sudo</p>
-<pre class=" language-again"><code class="language-again">yum list installed openssh-server
+<h3 id="客户端"><a href="#客户端" class="headerlink" title="客户端"></a>客户端</h3><p>下载frp</p>
+<pre class=" language-yum"><code class="language-yum">yum update -y
+
+yum install -y wget unzip
+
+wget https://github.com/fatedier/frp/releases/download/v0.36.0/frp_0.36.0_linux_amd64.tar.gz
+
+tar -xvf frp_0.36.0_linux_amd64.tar.gz
+
+rm -f frp_0.36.0_linux_amd64.tar.gz
+
+cd frp_0.36.0_linux_amd64
+
+rm -f frs
+
+rm -f frs.ini
+
+rm -f frs.ini.full
 </code></pre>
-<p><img src="/../data/img/2023/7/73.png" alt="检查ssh"><br><img src="/../data/img/2023/7/74.png" alt="检查ssh"><br>这里我们可以看到 已经装好了openssh那么我们直接启动ssh就好了</p>
-<pre class=" language-startssh"><code class="language-startssh">systemctl start sshd
+<p>配置配置文件</p>
+<pre class=" language-frps.ini"><code class="language-frps.ini">vim frps.ini
+
+
+输入以下内容
+
+[common]
+server_addr = 你的服务器ip地址
+server_port = 7000
+token = 123456
+heartbeat_interval = 30
+heartbeat_timeout = 90
+
+[ssh]
+type = tcp
+local_ip = 你的局域网IP地址
+local_port = 22
+remote_port = 2222
+
+
+:wq!
 </code></pre>
-<p>我们可以用这条命令检查ssh是否开启</p>
-<pre class=" language-inspect"><code class="language-inspect">systemctl status sshd
+<p>使用配置自启</p>
+<pre class=" language-systemd"><code class="language-systemd">
+使用systemd配置开机自启
+yum install systemd
+
+vim /etc/systemd/system/frpc.service
+
+
+写入以下内容
+[Unit]
+# 服务名称，可自定义
+Description = frp server
+After = network.target syslog.target
+Wants = network.target
+
+[Service]
+Type = simple
+# 启动frps的命令，需修改为您的frps的安装路径
+ExecStart = /path/to/frpc -c /path/to/frpc.ini
+
+[Install]
+WantedBy = multi-user.target
+
+使用 systemd 命令，管理 frpc
+
+# 启动frp
+systemctl start frpc
+# 停止frp
+systemctl stop frpc
+# 重启frp
+systemctl restart frpc
+# 查看frp状态
+systemctl status frpc
+
+systemctl daemon-reload
+
+
+配置 frps 开机自启。
+
+systemctl enable frpc
 </code></pre>
-<p><img src="/../data/img/2023/7/75.png" alt="ssh:active"><br>那么ssh就开好啦<br>接下来安利一个工具 超级好用<code>Final Shell</code> 安全性怎么样不知道 偶然间发现的试了一下超级好用 强烈推荐 打包放在<a target="_blank" rel="noopener" href="http://download.ganxy03.cn/download/finalshell.zip">这里</a>啦<br>首先我们先去查一下虚机的IP地址<br>这里有两个网络接口的IP</p>
-<ul>
-<li>ens33是物理网络接口 用于与物理网络进行通信</li>
-<li>virbr0是虚拟网络接口 用于虚拟化环境中创建的虚拟网络<br>我们需要的是ens33的IP地址 例如我的192.168.74.131<br><img src="/../data/img/2023/7/76.png" alt="虚机的IP地址"><br>我们来到命令提示符ping一下虚机<code>（win+r 输入cmd）</code><br><img src="/../data/img/2023/7/77.png" alt="ping虚机"><br>有返回的数据说明物理机能访问到虚机 那么在Final Shell里创建一个ssh连接<br><img src="/../data/img/2023/7/78.png" alt="新建一个连接"><br>填写主机地址 ssh默认端口22<br>使用密码连接 输入系统账号的用户名和密码<br><img src="/../data/img/2023/7/79.png" alt="新建连接"><br>完了之后在连接管理器里双击连接刚才创建的实例<br><img src="/../data/img/2023/7/80.png" alt="双击连接"><br><img src="/../data/img/2023/7/81.png" alt="接受保存密钥"><br>哒哒 看到这里恭喜你连接成功啦<br><img src="/../data/img/2023/7/82.png" alt="连接成功！"></li>
-</ul>
-<h4 id="设置自启"><a href="#设置自启" class="headerlink" title="设置自启"></a>设置自启</h4><p>咳咳 还没完 我们刚才只是一次启动 就像手机软件一个点一下才能动一下 每次都要开机手动打开ssh过于繁琐 所以我们设置这种必要的服务自行随着开机启动</p>
-<pre class=" language-autostart"><code class="language-autostart">systemctl enable sshd
+<p>但是涉及多个ssh映射</p>
+<p>就要这样<br>客户端</p>
+<pre><code>[common]
+server_addr = 124.221.138.245
+server_port = 7000
+token = abc13735820244
+heartbeat_interval = 30
+heartbeat_timeout = 90
+
+[ssh]
+type = tcpmux
+multiplexer = httpconnect
+custom_domains = homelinux.ganxy03.cn
+local_ip = 192.168.3.153
+local_port = 22
+
 </code></pre>
-<p><img src="/../data/img/2023/7/83.png" alt="设置自启"><br>我们来验证一下<br>重启</p>
-<pre class=" language-reboot"><code class="language-reboot">reboot
-</code></pre>
-<p><img src="/../data/img/2023/7/84.png" alt="自启设置成功"><br><code>小tips</code><br>ssh连接开机直接在工具里登陆就可以了 VMware上面可以不用登陆</p>
-<h2 id="完"><a href="#完" class="headerlink" title="完"></a>完</h2><p>好啦 希望看到这里的你以后能将今天类似的思维带到其他的功能当中去<br>更多实用文章关注我的博客 不定时更新！<br>如果感觉不错 挺一个bo~</p>
 
                 
             </div>
@@ -548,7 +692,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://ganxy03.github.io/2023/07/11/%E3%80%90Vmware%E3%80%91%E5%88%9B%E5%BB%BA%E8%99%9A%E6%9C%BA%EF%BC%88%E4%BB%A5CentOS7%E4%B8%BA%E4%BE%8B%EF%BC%89/">https://ganxy03.github.io/2023/07/11/%E3%80%90Vmware%E3%80%91%E5%88%9B%E5%BB%BA%E8%99%9A%E6%9C%BA%EF%BC%88%E4%BB%A5CentOS7%E4%B8%BA%E4%BE%8B%EF%BC%89/</a>
+                    <a href="https://ganxy03.github.io/2023/07/27/%E3%80%90frp%E3%80%91%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%EF%BC%88%E4%BB%A5%E5%AE%B6%E9%87%8C%E7%9A%84CentOS7%E4%B8%BA%E4%BE%8B%EF%BC%89/">https://ganxy03.github.io/2023/07/27/%E3%80%90frp%E3%80%91%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%EF%BC%88%E4%BB%A5%E5%AE%B6%E9%87%8C%E7%9A%84CentOS7%E4%B8%BA%E4%BE%8B%EF%BC%89/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -673,9 +817,48 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
+                <i class="far fa-dot-circle"></i>&nbsp;Current
+            </div>
+            <div class="card">
+                <a href="/2023/07/27/%E3%80%90frp%E3%80%91%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%EF%BC%88%E4%BB%A5%E5%AE%B6%E9%87%8C%E7%9A%84CentOS7%E4%B8%BA%E4%BE%8B%EF%BC%89/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="【frp】内网穿透（以家里的CentOS7为例）">
+                        
+                        <span class="card-title">【frp】内网穿透（以家里的CentOS7为例）</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-07-27
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            Ganxy
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                Next&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
             <div class="card">
                 <a href="/2023/07/25/%E3%80%90web%E5%A4%87%E4%BB%BD%E3%80%91%E7%AB%99%E7%82%B9%E6%96%87%E4%BB%B6%E5%8F%8A%E6%95%B0%E6%8D%AE%E5%BA%93MySQL%E7%9A%84%E5%A4%87%E4%BB%BD/">
                     <div class="card-image">
@@ -693,45 +876,8 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2023-07-25
-                        </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-user fa-fw"></i>
-                            Ganxy
-                            
-                        </span>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                Next&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2023/07/01/%E3%80%90Vue%E3%80%91%E9%85%8D%E7%BD%AE%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="【Vue】配置开发环境">
-                        
-                        <span class="card-title">【Vue】配置开发环境</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            
-                        
-                    </div>
-                    <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-07-01
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-07-25
                             </span>
                         <span class="publish-author">
                             
