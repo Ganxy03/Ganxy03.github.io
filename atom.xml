@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>小站</title>
+  
+  
+  <link href="https://blog.ganxy03.cn/atom.xml" rel="self"/>
+  
+  <link href="https://blog.ganxy03.cn/"/>
+  <updated>2024-10-07T04:30:12.000Z</updated>
+  <id>https://blog.ganxy03.cn/</id>
+  
+  <author>
+    <name>Ganxy</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【BRICS】若依框架简单应用</title>
+    <link href="https://blog.ganxy03.cn/posts/64362/"/>
+    <id>https://blog.ganxy03.cn/posts/64362/</id>
+    <published>2024-10-06T16:43:21.000Z</published>
+    <updated>2024-10-07T04:30:12.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;提示&lt;/strong&gt;：熬夜写的 你们两个给我好好看 如遇图片无法正常加载 请代理访问&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【upai】又拍云</title>
+    <link href="https://blog.ganxy03.cn/posts/48761/"/>
+    <id>https://blog.ganxy03.cn/posts/48761/</id>
+    <published>2024-10-01T18:23:15.000Z</published>
+    <updated>2024-10-06T17:01:01.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;github 托管 图片加载不出来</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【新】更新博客主题</title>
+    <link href="https://blog.ganxy03.cn/posts/16158/"/>
+    <id>https://blog.ganxy03.cn/posts/16158/</id>
+    <published>2024-10-01T16:56:55.000Z</published>
+    <updated>2024-10-06T17:01:01.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【PostFix】邮件服务器配置</title>
+    <link href="https://blog.ganxy03.cn/posts/23228/"/>
+    <id>https://blog.ganxy03.cn/posts/23228/</id>
+    <published>2024-07-15T04:07:11.000Z</published>
+    <updated>2024-10-06T17:01:01.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;测试端口&quot;&gt;&lt;a href=&quot;#测试端口&quot; class=&quot;headerlink&quot; title=&quot;测试端口&quot;&gt;&lt;/a&gt;测试端口&lt;/h2&gt;&lt;p&gt;Test-NetConnection -ComputerName 8.130.131.37 -Port</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【Hadoop】高可用集群搭建</title>
+    <link href="https://blog.ganxy03.cn/posts/32601/"/>
+    <id>https://blog.ganxy03.cn/posts/32601/</id>
+    <published>2024-06-04T05:37:10.000Z</published>
+    <updated>2024-10-06T17:01:01.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;本案例基于三台阿里云CentOS7，仅作hadoop高可用集群的搭建过程命令及技巧总结&lt;/p&gt;
+&lt;p&gt;本篇以全分布式集群为基础</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【Hadoop】全分布式环境搭建</title>
+    <link href="https://blog.ganxy03.cn/posts/18913/"/>
+    <id>https://blog.ganxy03.cn/posts/18913/</id>
+    <published>2024-04-19T10:49:22.000Z</published>
+    <updated>2024-10-06T17:01:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;全分布式环境搭建&quot;&gt;&lt;a href=&quot;#全分布式环境搭建&quot; class=&quot;headerlink&quot; title=&quot;全分布式环境搭建&quot;&gt;&lt;/a&gt;全分布式环境搭建&lt;/h1&gt;&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【Hadoop】伪分布式环境搭建</title>
+    <link href="https://blog.ganxy03.cn/posts/10978/"/>
+    <id>https://blog.ganxy03.cn/posts/10978/</id>
+    <published>2024-04-17T16:26:34.000Z</published>
+    <updated>2024-10-06T17:01:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;伪分布式环境搭建&quot;&gt;&lt;a href=&quot;#伪分布式环境搭建&quot; class=&quot;headerlink&quot; title=&quot;伪分布式环境搭建&quot;&gt;&lt;/a&gt;伪分布式环境搭建&lt;/h1&gt;&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【Swagger】配置文件空指针（error）</title>
+    <link href="https://blog.ganxy03.cn/posts/55138/"/>
+    <id>https://blog.ganxy03.cn/posts/55138/</id>
+    <published>2023-08-31T13:17:07.000Z</published>
+    <updated>2024-10-06T17:01:01.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;环境&quot;&gt;&lt;a href=&quot;#环境&quot; class=&quot;headerlink&quot; title=&quot;环境&quot;&gt;&lt;/a&gt;环境&lt;/h2&gt;&lt;p&gt;springboot: 2.7.15&lt;br&gt;swagger2: 2.9.2&lt;br&gt;swagger-ui: 2.9.2&lt;/p&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【OpVN】CentOS7搭建OpVN</title>
+    <link href="https://blog.ganxy03.cn/posts/2622/"/>
+    <id>https://blog.ganxy03.cn/posts/2622/</id>
+    <published>2023-08-05T17:29:35.000Z</published>
+    <updated>2024-10-06T17:01:01.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【VSCode】部署网页版VScode</title>
+    <link href="https://blog.ganxy03.cn/posts/26960/"/>
+    <id>https://blog.ganxy03.cn/posts/26960/</id>
+    <published>2023-08-05T17:16:53.000Z</published>
+    <updated>2024-10-06T17:01:01.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;偶然发现VScode支持网页版&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【Mysql】CentOS7安装Mysql数据库</title>
+    <link href="https://blog.ganxy03.cn/posts/59344/"/>
+    <id>https://blog.ganxy03.cn/posts/59344/</id>
+    <published>2023-08-01T04:48:03.000Z</published>
+    <updated>2024-10-06T17:01:01.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【Wakeonlan】远程一键唤醒</title>
+    <link href="https://blog.ganxy03.cn/posts/32037/"/>
+    <id>https://blog.ganxy03.cn/posts/32037/</id>
+    <published>2023-07-29T06:30:21.000Z</published>
+    <updated>2024-10-06T17:01:01.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;家中的台式机装了双系统 默认CentOS启动&lt;br&gt;本次目标是利用树莓派远程唤醒CentOS&lt;/p&gt;
+&lt;h2 id=&quot;准备&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【frp】内网穿透（以家里的CentOS7为例）</title>
+    <link href="https://blog.ganxy03.cn/posts/65448/"/>
+    <id>https://blog.ganxy03.cn/posts/65448/</id>
+    <published>2023-07-27T10:36:37.000Z</published>
+    <updated>2024-10-06T17:01:01.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;给家里的电脑装了双系统 默认CentOS的启动 寻思着给它来了个每天自启的任务 顺便给它用frp进行内网穿透 知道以前有过这样的文章</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【web备份】站点文件及数据库MySQL的备份</title>
+    <link href="https://blog.ganxy03.cn/posts/25839/"/>
+    <id>https://blog.ganxy03.cn/posts/25839/</id>
+    <published>2023-07-25T04:58:03.000Z</published>
+    <updated>2024-10-06T17:01:01.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;服务器到期 唯一值得备份的就是部署的站点及数据库 今天来记录下服务器站点的备份&lt;br&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【Vmware】创建虚机（以CentOS7为例）</title>
+    <link href="https://blog.ganxy03.cn/posts/5030/"/>
+    <id>https://blog.ganxy03.cn/posts/5030/</id>
+    <published>2023-07-11T09:12:27.000Z</published>
+    <updated>2024-10-06T17:01:01.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;以CentOS7为例 用Vmware创建虚拟机&lt;br&gt;为了不占据C系统盘的空间也方便管理 你可以像我这样</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【Vue】配置开发环境</title>
+    <link href="https://blog.ganxy03.cn/posts/32746/"/>
+    <id>https://blog.ganxy03.cn/posts/32746/</id>
+    <published>2023-07-01T07:44:49.000Z</published>
+    <updated>2024-10-06T17:01:01.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;环境&quot;&gt;&lt;a href=&quot;#环境&quot; class=&quot;headerlink&quot; title=&quot;环境&quot;&gt;&lt;/a&gt;环境&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;node 16.0+&lt;/li&gt;
+&lt;li&gt;npm 9.0+&lt;/li&gt;
+&lt;li&gt;vue cli</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【HTML】HTML概述总结（加实例）</title>
+    <link href="https://blog.ganxy03.cn/posts/44247/"/>
+    <id>https://blog.ganxy03.cn/posts/44247/</id>
+    <published>2023-07-01T04:02:40.000Z</published>
+    <updated>2024-10-06T17:01:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;HTML&quot;&gt;&lt;a href=&quot;#HTML&quot; class=&quot;headerlink&quot; title=&quot;HTML&quot;&gt;&lt;/a&gt;HTML&lt;/h2&gt;&lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【Raspberrypi】搭建web服务器并发布网页（Nginx篇）</title>
+    <link href="https://blog.ganxy03.cn/posts/52129/"/>
+    <id>https://blog.ganxy03.cn/posts/52129/</id>
+    <published>2023-06-26T17:59:23.000Z</published>
+    <updated>2024-10-06T17:01:01.000Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【Sysnology】frp映射群晖WebDav server</title>
+    <link href="https://blog.ganxy03.cn/posts/58105/"/>
+    <id>https://blog.ganxy03.cn/posts/58105/</id>
+    <published>2023-06-24T13:15:39.000Z</published>
+    <updated>2024-10-06T17:01:01.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;设置自启&quot;&gt;&lt;a href=&quot;#设置自启&quot; class=&quot;headerlink&quot; title=&quot;设置自启&quot;&gt;&lt;/a&gt;设置自启&lt;/h2&gt;&lt;p&gt;vim</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【java期末实训】代码展示</title>
+    <link href="https://blog.ganxy03.cn/posts/18933/"/>
+    <id>https://blog.ganxy03.cn/posts/18933/</id>
+    <published>2023-06-20T02:35:05.000Z</published>
+    <updated>2024-10-06T17:01:01.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>

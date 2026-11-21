@@ -1,0 +1,41 @@
+/* 手动广告位样式：与正文留白一致，移动端隐藏侧栏 300x250 */
+.gx-ad {
+  margin: 18px 0;
+  clear: both;
+}
+
+.gx-ad-note {
+  margin: 0 0 4px;
+  font-size: 11px;
+  line-height: 1;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: #9aa0a6;
+  text-align: right;
+}
+
+.gx-ad ins {
+  background: transparent;
+}
+
+.gx-ad-articleMid {
+  margin: 22px 0;
+}
+
+.gx-ad-sidebar {
+  display: block;
+  padding: 6px 0 10px;
+  text-align: center;
+}
+
+.gx-ad-sidebar ins {
+  display: inline-block;
+  width: 300px;
+  height: 250px;
+}
+
+@media screen and (max-width: 768px) {
+  .gx-ad-sidebar {
+    display: none;
+  }
+}
