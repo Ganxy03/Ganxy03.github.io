@@ -62,6 +62,35 @@
     try {
       (window.adsbygoogle = window.adsbygoogle || []).push({});
     } catch (e) { /* 广告脚本未就绪时静默失败 */ }
+    watch(wrap);
+  }
+
+  // 广告域名不可达（网络受限/被拦截）或无竞价时，把整块收起，避免留下空白盒子
+  // 判定以 AdSense 自己写的 data-ad-status 为准：unfilled 必收，filled 必留
+  function watch(wrap) {
+    var ins = wrap.querySelector('ins.adsbygoogle');
+    var end = Date.now() + 12000;
+    var miss = 0;
+    function blank() { wrap.classList.add('gx-ad-blank'); }
+    function check() {
+      if (wrap.classList.contains('gx-ad-blank')) return;
+      var status = ins && ins.getAttribute('data-ad-status');
+      if (status === 'filled') return;
+      if (status === 'unfilled') {
+        // 连续两次 unfilled（约 3 秒）才收起，避免误伤稍后才填充的位
+        miss += 1;
+        if (miss >= 2) { blank(); return; }
+      } else {
+        miss = 0;
+      }
+      if (Date.now() >= end) {
+        // 超时仍没有状态：有 iframe 视为已展示，没有就收起（脚本被墙时属于这种情况）
+        if (!(ins && ins.querySelector('iframe'))) blank();
+        return;
+      }
+      setTimeout(check, 1500);
+    }
+    setTimeout(check, 1500);
   }
 
   function exists(key) {

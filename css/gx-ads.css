@@ -18,6 +18,11 @@
   background: transparent;
 }
 
+/* 无填充（AdSense 被墙 / 审核未过 / 无竞价）时整块收起，不留空白 */
+.gx-ad-blank {
+  display: none !important;
+}
+
 .gx-ad-articleMid {
   margin: 22px 0;
 }
