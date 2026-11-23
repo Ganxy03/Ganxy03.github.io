@@ -1,0 +1,37 @@
+/* 中英切换按钮：跟随站点标题，桌面与移动端都可见 */
+.gx-lang {
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+  margin-left: .9rem;
+  font-size: .85rem;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.gx-lang a {
+  color: var(--font-color, #4c4948);
+  opacity: .55;
+  cursor: pointer;
+  text-decoration: none;
+  transition: opacity .2s, color .2s;
+}
+
+.gx-lang a:hover,
+.gx-lang a.is-active {
+  opacity: 1;
+  color: var(--btn-hover-color, #49b1f5);
+  font-weight: 600;
+}
+
+.gx-lang i {
+  font-style: normal;
+  opacity: .35;
+}
+
+@media screen and (max-width: 768px) {
+  .gx-lang {
+    margin-left: .6rem;
+    font-size: .75rem;
+  }
+}

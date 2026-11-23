@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>小站</title>
+  <title>Ganxy&#39;s Notes</title>
   
-  
+  <subtitle>Servers, networks and site-building notes</subtitle>
   <link href="https://blog.ganxy03.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.ganxy03.cn/"/>
@@ -17,424 +17,444 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>【BRICS】若依框架简单应用</title>
+    <title>RuoYi Framework: A Quick Start</title>
     <link href="https://blog.ganxy03.cn/posts/64362/"/>
     <id>https://blog.ganxy03.cn/posts/64362/</id>
     <published>2024-10-06T16:43:21.000Z</published>
     <updated>2024-10-07T04:30:12.000Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;提示&lt;/strong&gt;：熬夜写的 你们两个给我好好看 如遇图片无法正常加载 请代理访问&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot;</summary>
-        
-      
+    <summary type="html">Get a RuoYi project running: environment, database, and the first module.</summary>
     
     
     
+    <category term="Programming" scheme="https://blog.ganxy03.cn/categories/Programming/"/>
+    
+    
+    <category term="Java" scheme="https://blog.ganxy03.cn/tags/Java/"/>
+    
+    <category term="RuoYi" scheme="https://blog.ganxy03.cn/tags/RuoYi/"/>
+    
+    <category term="Framework" scheme="https://blog.ganxy03.cn/tags/Framework/"/>
     
   </entry>
   
   <entry>
-    <title>【upai】又拍云</title>
+    <title>Upyun: Object Storage and CDN Notes</title>
     <link href="https://blog.ganxy03.cn/posts/48761/"/>
     <id>https://blog.ganxy03.cn/posts/48761/</id>
     <published>2024-10-01T18:23:15.000Z</published>
     <updated>2024-10-06T17:01:01.000Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;github 托管 图片加载不出来</summary>
-        
-      
+    <summary type="html">Using Upyun for image hosting and CDN delivery, plus the settings worth knowing.</summary>
     
     
     
+    <category term="Servers" scheme="https://blog.ganxy03.cn/categories/Servers/"/>
+    
+    
+    <category term="Upyun" scheme="https://blog.ganxy03.cn/tags/Upyun/"/>
+    
+    <category term="CDN" scheme="https://blog.ganxy03.cn/tags/CDN/"/>
     
   </entry>
   
   <entry>
-    <title>【新】更新博客主题</title>
+    <title>Updating My Blog Theme</title>
     <link href="https://blog.ganxy03.cn/posts/16158/"/>
     <id>https://blog.ganxy03.cn/posts/16158/</id>
     <published>2024-10-01T16:56:55.000Z</published>
     <updated>2024-10-06T17:01:01.000Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot;</summary>
-        
-      
+    <summary type="html">Notes on refreshing the blog theme: what changed, what broke, and how the layout was tuned afterwards.</summary>
     
     
     
+    <category term="Blogging" scheme="https://blog.ganxy03.cn/categories/Blogging/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.ganxy03.cn/tags/Hexo/"/>
+    
+    <category term="Theme" scheme="https://blog.ganxy03.cn/tags/Theme/"/>
+    
+    <category term="Blog" scheme="https://blog.ganxy03.cn/tags/Blog/"/>
     
   </entry>
   
   <entry>
-    <title>【PostFix】邮件服务器配置</title>
+    <title>Configuring a Postfix Mail Server</title>
     <link href="https://blog.ganxy03.cn/posts/23228/"/>
     <id>https://blog.ganxy03.cn/posts/23228/</id>
     <published>2024-07-15T04:07:11.000Z</published>
     <updated>2024-10-06T17:01:01.000Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;测试端口&quot;&gt;&lt;a href=&quot;#测试端口&quot; class=&quot;headerlink&quot; title=&quot;测试端口&quot;&gt;&lt;/a&gt;测试端口&lt;/h2&gt;&lt;p&gt;Test-NetConnection -ComputerName 8.130.131.37 -Port</summary>
-        
-      
+    <summary type="html">Postfix setup notes: DNS records, main.cf, delivery tests and the usual pitfalls.</summary>
     
     
     
+    <category term="Servers" scheme="https://blog.ganxy03.cn/categories/Servers/"/>
+    
+    
+    <category term="Linux" scheme="https://blog.ganxy03.cn/tags/Linux/"/>
+    
+    <category term="Postfix" scheme="https://blog.ganxy03.cn/tags/Postfix/"/>
+    
+    <category term="Email" scheme="https://blog.ganxy03.cn/tags/Email/"/>
     
   </entry>
   
   <entry>
-    <title>【Hadoop】高可用集群搭建</title>
+    <title>Hadoop: High-Availability Cluster Setup</title>
     <link href="https://blog.ganxy03.cn/posts/32601/"/>
     <id>https://blog.ganxy03.cn/posts/32601/</id>
     <published>2024-06-04T05:37:10.000Z</published>
     <updated>2024-10-06T17:01:01.000Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;本案例基于三台阿里云CentOS7，仅作hadoop高可用集群的搭建过程命令及技巧总结&lt;/p&gt;
-&lt;p&gt;本篇以全分布式集群为基础</summary>
-        
-      
+    <summary type="html">Build an HA Hadoop cluster with ZooKeeper, QJM and automatic failover between NameNodes.</summary>
     
     
     
+    <category term="Hadoop" scheme="https://blog.ganxy03.cn/categories/Hadoop/"/>
+    
+    
+    <category term="Hadoop" scheme="https://blog.ganxy03.cn/tags/Hadoop/"/>
+    
+    <category term="High Availability" scheme="https://blog.ganxy03.cn/tags/High-Availability/"/>
+    
+    <category term="ZooKeeper" scheme="https://blog.ganxy03.cn/tags/ZooKeeper/"/>
     
   </entry>
   
   <entry>
-    <title>【Hadoop】全分布式环境搭建</title>
+    <title>Hadoop: Building a Fully Distributed Cluster</title>
     <link href="https://blog.ganxy03.cn/posts/18913/"/>
     <id>https://blog.ganxy03.cn/posts/18913/</id>
     <published>2024-04-19T10:49:22.000Z</published>
     <updated>2024-10-06T17:01:00.000Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;全分布式环境搭建&quot;&gt;&lt;a href=&quot;#全分布式环境搭建&quot; class=&quot;headerlink&quot; title=&quot;全分布式环境搭建&quot;&gt;&lt;/a&gt;全分布式环境搭建&lt;/h1&gt;&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
-        
-      
+    <summary type="html">Multi-node Hadoop deployment: host planning, SSH trust, configuration files and final verification.</summary>
     
     
     
+    <category term="Hadoop" scheme="https://blog.ganxy03.cn/categories/Hadoop/"/>
+    
+    
+    <category term="Hadoop" scheme="https://blog.ganxy03.cn/tags/Hadoop/"/>
+    
+    <category term="Linux" scheme="https://blog.ganxy03.cn/tags/Linux/"/>
+    
+    <category term="Cluster" scheme="https://blog.ganxy03.cn/tags/Cluster/"/>
     
   </entry>
   
   <entry>
-    <title>【Hadoop】伪分布式环境搭建</title>
+    <title>Hadoop: Setting Up a Pseudo-Distributed Cluster</title>
     <link href="https://blog.ganxy03.cn/posts/10978/"/>
     <id>https://blog.ganxy03.cn/posts/10978/</id>
     <published>2024-04-17T16:26:34.000Z</published>
     <updated>2024-10-06T17:01:00.000Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;伪分布式环境搭建&quot;&gt;&lt;a href=&quot;#伪分布式环境搭建&quot; class=&quot;headerlink&quot; title=&quot;伪分布式环境搭建&quot;&gt;&lt;/a&gt;伪分布式环境搭建&lt;/h1&gt;&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
-        
-      
+    <summary type="html">Configure a single-node Hadoop cluster in pseudo-distributed mode, from JDK and SSH all the way to HDFS and YARN.</summary>
     
     
     
+    <category term="Hadoop" scheme="https://blog.ganxy03.cn/categories/Hadoop/"/>
+    
+    
+    <category term="Hadoop" scheme="https://blog.ganxy03.cn/tags/Hadoop/"/>
+    
+    <category term="Linux" scheme="https://blog.ganxy03.cn/tags/Linux/"/>
+    
+    <category term="Big Data" scheme="https://blog.ganxy03.cn/tags/Big-Data/"/>
     
   </entry>
   
   <entry>
-    <title>【Swagger】配置文件空指针（error）</title>
+    <title>Swagger: A NullPointerException in Config</title>
     <link href="https://blog.ganxy03.cn/posts/55138/"/>
     <id>https://blog.ganxy03.cn/posts/55138/</id>
     <published>2023-08-31T13:17:07.000Z</published>
     <updated>2024-10-06T17:01:01.000Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;环境&quot;&gt;&lt;a href=&quot;#环境&quot; class=&quot;headerlink&quot; title=&quot;环境&quot;&gt;&lt;/a&gt;环境&lt;/h2&gt;&lt;p&gt;springboot: 2.7.15&lt;br&gt;swagger2: 2.9.2&lt;br&gt;swagger-ui: 2.9.2&lt;/p&gt;
-&lt;h2</summary>
-        
-      
+    <summary type="html">Diagnosing a null pointer thrown while Swagger configuration was being loaded.</summary>
     
     
     
+    <category term="Programming" scheme="https://blog.ganxy03.cn/categories/Programming/"/>
+    
+    
+    <category term="Java" scheme="https://blog.ganxy03.cn/tags/Java/"/>
+    
+    <category term="Swagger" scheme="https://blog.ganxy03.cn/tags/Swagger/"/>
+    
+    <category term="Debugging" scheme="https://blog.ganxy03.cn/tags/Debugging/"/>
     
   </entry>
   
   <entry>
-    <title>【OpVN】CentOS7搭建OpVN</title>
+    <title>OpenVPN on CentOS 7</title>
     <link href="https://blog.ganxy03.cn/posts/2622/"/>
     <id>https://blog.ganxy03.cn/posts/2622/</id>
     <published>2023-08-05T17:29:35.000Z</published>
     <updated>2024-10-06T17:01:01.000Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td</summary>
-        
-      
+    <summary type="html">Build an OpenVPN server on CentOS 7: certificates, server.conf, routing and client profiles.</summary>
     
     
     
+    <category term="Network &amp; Remote Access" scheme="https://blog.ganxy03.cn/categories/Network-Remote-Access/"/>
+    
+    
+    <category term="OpenVPN" scheme="https://blog.ganxy03.cn/tags/OpenVPN/"/>
+    
+    <category term="CentOS" scheme="https://blog.ganxy03.cn/tags/CentOS/"/>
+    
+    <category term="VPN" scheme="https://blog.ganxy03.cn/tags/VPN/"/>
     
   </entry>
   
   <entry>
-    <title>【VSCode】部署网页版VScode</title>
+    <title>Deploying VS Code in the Browser</title>
     <link href="https://blog.ganxy03.cn/posts/26960/"/>
     <id>https://blog.ganxy03.cn/posts/26960/</id>
     <published>2023-08-05T17:16:53.000Z</published>
     <updated>2024-10-06T17:01:01.000Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;偶然发现VScode支持网页版&lt;/p&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td</summary>
-        
-      
+    <summary type="html">Run a web-based VS Code instance on a server and reach it from any browser.</summary>
     
     
     
+    <category term="Tooling" scheme="https://blog.ganxy03.cn/categories/Tooling/"/>
+    
+    
+    <category term="VS Code" scheme="https://blog.ganxy03.cn/tags/VS-Code/"/>
+    
+    <category term="code-server" scheme="https://blog.ganxy03.cn/tags/code-server/"/>
     
   </entry>
   
   <entry>
-    <title>【Mysql】CentOS7安装Mysql数据库</title>
+    <title>Installing MySQL on CentOS 7</title>
     <link href="https://blog.ganxy03.cn/posts/59344/"/>
     <id>https://blog.ganxy03.cn/posts/59344/</id>
     <published>2023-08-01T04:48:03.000Z</published>
     <updated>2024-10-06T17:01:01.000Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td</summary>
-        
-      
+    <summary type="html">Install and initialise MySQL on CentOS 7, from repository setup to the first login.</summary>
     
     
     
+    <category term="Databases" scheme="https://blog.ganxy03.cn/categories/Databases/"/>
+    
+    
+    <category term="MySQL" scheme="https://blog.ganxy03.cn/tags/MySQL/"/>
+    
+    <category term="CentOS" scheme="https://blog.ganxy03.cn/tags/CentOS/"/>
     
   </entry>
   
   <entry>
-    <title>【Wakeonlan】远程一键唤醒</title>
+    <title>Wake-on-LAN: Waking Machines Remotely</title>
     <link href="https://blog.ganxy03.cn/posts/32037/"/>
     <id>https://blog.ganxy03.cn/posts/32037/</id>
     <published>2023-07-29T06:30:21.000Z</published>
     <updated>2024-10-06T17:01:01.000Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;家中的台式机装了双系统 默认CentOS启动&lt;br&gt;本次目标是利用树莓派远程唤醒CentOS&lt;/p&gt;
-&lt;h2 id=&quot;准备&quot;&gt;&lt;a</summary>
-        
-      
+    <summary type="html">Enable Wake-on-LAN, then wake a machine from another host or straight from your phone.</summary>
     
     
     
+    <category term="Network &amp; Remote Access" scheme="https://blog.ganxy03.cn/categories/Network-Remote-Access/"/>
+    
+    
+    <category term="Wake-on-LAN" scheme="https://blog.ganxy03.cn/tags/Wake-on-LAN/"/>
+    
+    <category term="Network" scheme="https://blog.ganxy03.cn/tags/Network/"/>
     
   </entry>
   
   <entry>
-    <title>【frp】内网穿透（以家里的CentOS7为例）</title>
+    <title>NAT Traversal with frp on a Home CentOS 7 Box</title>
     <link href="https://blog.ganxy03.cn/posts/65448/"/>
     <id>https://blog.ganxy03.cn/posts/65448/</id>
     <published>2023-07-27T10:36:37.000Z</published>
     <updated>2024-10-06T17:01:01.000Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;给家里的电脑装了双系统 默认CentOS的启动 寻思着给它来了个每天自启的任务 顺便给它用frp进行内网穿透 知道以前有过这样的文章</summary>
-        
-      
+    <summary type="html">A practical frp walkthrough on a home CentOS 7 machine, end to end.</summary>
     
     
     
+    <category term="Network &amp; Remote Access" scheme="https://blog.ganxy03.cn/categories/Network-Remote-Access/"/>
+    
+    
+    <category term="frp" scheme="https://blog.ganxy03.cn/tags/frp/"/>
+    
+    <category term="NAT" scheme="https://blog.ganxy03.cn/tags/NAT/"/>
+    
+    <category term="CentOS" scheme="https://blog.ganxy03.cn/tags/CentOS/"/>
     
   </entry>
   
   <entry>
-    <title>【web备份】站点文件及数据库MySQL的备份</title>
+    <title>Backing Up Website Files and MySQL Databases</title>
     <link href="https://blog.ganxy03.cn/posts/25839/"/>
     <id>https://blog.ganxy03.cn/posts/25839/</id>
     <published>2023-07-25T04:58:03.000Z</published>
     <updated>2024-10-06T17:01:01.000Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;服务器到期 唯一值得备份的就是部署的站点及数据库 今天来记录下服务器站点的备份&lt;br&gt;&lt;img</summary>
-        
-      
+    <summary type="html">A repeatable backup routine for site files plus MySQL dumps, with scheduling and restore checks.</summary>
     
     
     
+    <category term="Operations" scheme="https://blog.ganxy03.cn/categories/Operations/"/>
+    
+    
+    <category term="Linux" scheme="https://blog.ganxy03.cn/tags/Linux/"/>
+    
+    <category term="MySQL" scheme="https://blog.ganxy03.cn/tags/MySQL/"/>
+    
+    <category term="Backup" scheme="https://blog.ganxy03.cn/tags/Backup/"/>
     
   </entry>
   
   <entry>
-    <title>【Vmware】创建虚机（以CentOS7为例）</title>
+    <title>VMware: Creating a CentOS 7 Virtual Machine</title>
     <link href="https://blog.ganxy03.cn/posts/5030/"/>
     <id>https://blog.ganxy03.cn/posts/5030/</id>
     <published>2023-07-11T09:12:27.000Z</published>
     <updated>2024-10-06T17:01:01.000Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;以CentOS7为例 用Vmware创建虚拟机&lt;br&gt;为了不占据C系统盘的空间也方便管理 你可以像我这样</summary>
-        
-      
+    <summary type="html">Create a CentOS 7 virtual machine in VMware and get its networking working.</summary>
     
     
     
+    <category term="Virtualization" scheme="https://blog.ganxy03.cn/categories/Virtualization/"/>
+    
+    
+    <category term="CentOS" scheme="https://blog.ganxy03.cn/tags/CentOS/"/>
+    
+    <category term="VMware" scheme="https://blog.ganxy03.cn/tags/VMware/"/>
     
   </entry>
   
   <entry>
-    <title>【Vue】配置开发环境</title>
+    <title>Vue: Setting Up a Development Environment</title>
     <link href="https://blog.ganxy03.cn/posts/32746/"/>
     <id>https://blog.ganxy03.cn/posts/32746/</id>
     <published>2023-07-01T07:44:49.000Z</published>
     <updated>2024-10-06T17:01:01.000Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;环境&quot;&gt;&lt;a href=&quot;#环境&quot; class=&quot;headerlink&quot; title=&quot;环境&quot;&gt;&lt;/a&gt;环境&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;node 16.0+&lt;/li&gt;
-&lt;li&gt;npm 9.0+&lt;/li&gt;
-&lt;li&gt;vue cli</summary>
-        
-      
+    <summary type="html">Node, npm and the Vue CLI configured from scratch, ending with a project that runs.</summary>
     
     
     
+    <category term="Programming" scheme="https://blog.ganxy03.cn/categories/Programming/"/>
+    
+    
+    <category term="Vue" scheme="https://blog.ganxy03.cn/tags/Vue/"/>
+    
+    <category term="Frontend" scheme="https://blog.ganxy03.cn/tags/Frontend/"/>
     
   </entry>
   
   <entry>
-    <title>【HTML】HTML概述总结（加实例）</title>
+    <title>HTML in a Nutshell, with Examples</title>
     <link href="https://blog.ganxy03.cn/posts/44247/"/>
     <id>https://blog.ganxy03.cn/posts/44247/</id>
     <published>2023-07-01T04:02:40.000Z</published>
     <updated>2024-10-06T17:01:00.000Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;HTML&quot;&gt;&lt;a href=&quot;#HTML&quot; class=&quot;headerlink&quot; title=&quot;HTML&quot;&gt;&lt;/a&gt;HTML&lt;/h2&gt;&lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
-        
-      
+    <summary type="html">Core HTML elements explained with small, runnable examples.</summary>
     
     
     
+    <category term="Programming" scheme="https://blog.ganxy03.cn/categories/Programming/"/>
+    
+    
+    <category term="Frontend" scheme="https://blog.ganxy03.cn/tags/Frontend/"/>
+    
+    <category term="HTML" scheme="https://blog.ganxy03.cn/tags/HTML/"/>
     
   </entry>
   
   <entry>
-    <title>【Raspberrypi】搭建web服务器并发布网页（Nginx篇）</title>
+    <title>Raspberry Pi Web Server with Nginx</title>
     <link href="https://blog.ganxy03.cn/posts/52129/"/>
     <id>https://blog.ganxy03.cn/posts/52129/</id>
     <published>2023-06-26T17:59:23.000Z</published>
     <updated>2024-10-06T17:01:01.000Z</updated>
     
     
+    <summary type="html">Install Nginx on a Raspberry Pi and publish a page across the local network.</summary>
     
     
+    
+    <category term="Raspberry Pi" scheme="https://blog.ganxy03.cn/categories/Raspberry-Pi/"/>
+    
+    
+    <category term="Raspberry Pi" scheme="https://blog.ganxy03.cn/tags/Raspberry-Pi/"/>
+    
+    <category term="Nginx" scheme="https://blog.ganxy03.cn/tags/Nginx/"/>
     
   </entry>
   
   <entry>
-    <title>【Sysnology】frp映射群晖WebDav server</title>
+    <title>Synology: Exposing WebDAV through frp</title>
     <link href="https://blog.ganxy03.cn/posts/58105/"/>
     <id>https://blog.ganxy03.cn/posts/58105/</id>
     <published>2023-06-24T13:15:39.000Z</published>
     <updated>2024-10-06T17:01:01.000Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;设置自启&quot;&gt;&lt;a href=&quot;#设置自启&quot; class=&quot;headerlink&quot; title=&quot;设置自启&quot;&gt;&lt;/a&gt;设置自启&lt;/h2&gt;&lt;p&gt;vim</summary>
-        
-      
+    <summary type="html">Map a Synology WebDAV service onto the internet through an frp tunnel.</summary>
     
     
     
+    <category term="Network &amp; Remote Access" scheme="https://blog.ganxy03.cn/categories/Network-Remote-Access/"/>
+    
+    
+    <category term="Synology" scheme="https://blog.ganxy03.cn/tags/Synology/"/>
+    
+    <category term="frp" scheme="https://blog.ganxy03.cn/tags/frp/"/>
+    
+    <category term="WebDAV" scheme="https://blog.ganxy03.cn/tags/WebDAV/"/>
     
   </entry>
   
   <entry>
-    <title>【java期末实训】代码展示</title>
+    <title>Java Final Project: Code Walkthrough</title>
     <link href="https://blog.ganxy03.cn/posts/18933/"/>
     <id>https://blog.ganxy03.cn/posts/18933/</id>
     <published>2023-06-20T02:35:05.000Z</published>
     <updated>2024-10-06T17:01:01.000Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span</summary>
-        
-      
+    <summary type="html">The code and structure behind my Java course final project, module by module.</summary>
     
     
     
+    <category term="Programming" scheme="https://blog.ganxy03.cn/categories/Programming/"/>
+    
+    
+    <category term="Java" scheme="https://blog.ganxy03.cn/tags/Java/"/>
+    
+    <category term="Coursework" scheme="https://blog.ganxy03.cn/tags/Coursework/"/>
     
   </entry>
   
