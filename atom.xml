@@ -6,7 +6,7 @@
   <link href="https://blog.ganxy03.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.ganxy03.cn/"/>
-  <updated>2026-11-26T07:00:00.000Z</updated>
+  <updated>2026-11-28T07:00:00.000Z</updated>
   <id>https://blog.ganxy03.cn/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>WSL + Debian + Docker: Five Pitfalls and a Working daemon.json</title>
+    <link href="https://blog.ganxy03.cn/posts/80103/"/>
+    <id>https://blog.ganxy03.cn/posts/80103/</id>
+    <published>2026-11-28T07:00:00.000Z</published>
+    <updated>2026-11-28T07:00:00.000Z</updated>
+    
+    
+    <summary type="html">Getting Docker to behave inside WSL: systemd, cgroup limits, DNS, storage driver and registry mirrors, with a daemon.json you can copy.</summary>
+    
+    
+    
+    <category term="Linux" scheme="https://blog.ganxy03.cn/categories/Linux/"/>
+    
+    
+    <category term="Windows" scheme="https://blog.ganxy03.cn/tags/Windows/"/>
+    
+    <category term="WSL" scheme="https://blog.ganxy03.cn/tags/WSL/"/>
+    
+    <category term="Docker" scheme="https://blog.ganxy03.cn/tags/Docker/"/>
+    
+    <category term="Debian" scheme="https://blog.ganxy03.cn/tags/Debian/"/>
+    
+  </entry>
   
   <entry>
     <title>Gigabit Broadband Stuck at 300 Mbps: Two Local Bottlenecks</title>
@@ -196,9 +221,9 @@
     
     <category term="Hadoop" scheme="https://blog.ganxy03.cn/tags/Hadoop/"/>
     
-    <category term="Linux" scheme="https://blog.ganxy03.cn/tags/Linux/"/>
-    
     <category term="Cluster" scheme="https://blog.ganxy03.cn/tags/Cluster/"/>
+    
+    <category term="Linux" scheme="https://blog.ganxy03.cn/tags/Linux/"/>
     
   </entry>
   
@@ -349,11 +374,11 @@
     <category term="Network &amp; Remote Access" scheme="https://blog.ganxy03.cn/categories/Network-Remote-Access/"/>
     
     
-    <category term="CentOS" scheme="https://blog.ganxy03.cn/tags/CentOS/"/>
-    
     <category term="frp" scheme="https://blog.ganxy03.cn/tags/frp/"/>
     
     <category term="NAT" scheme="https://blog.ganxy03.cn/tags/NAT/"/>
+    
+    <category term="CentOS" scheme="https://blog.ganxy03.cn/tags/CentOS/"/>
     
   </entry>
   
@@ -440,27 +465,6 @@
     <category term="Frontend" scheme="https://blog.ganxy03.cn/tags/Frontend/"/>
     
     <category term="HTML" scheme="https://blog.ganxy03.cn/tags/HTML/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Raspberry Pi Web Server with Nginx</title>
-    <link href="https://blog.ganxy03.cn/posts/52129/"/>
-    <id>https://blog.ganxy03.cn/posts/52129/</id>
-    <published>2023-06-26T17:59:23.000Z</published>
-    <updated>2024-10-06T17:01:01.000Z</updated>
-    
-    
-    <summary type="html">Install Nginx on a Raspberry Pi and publish a page across the local network.</summary>
-    
-    
-    
-    <category term="Raspberry Pi" scheme="https://blog.ganxy03.cn/categories/Raspberry-Pi/"/>
-    
-    
-    <category term="Raspberry Pi" scheme="https://blog.ganxy03.cn/tags/Raspberry-Pi/"/>
-    
-    <category term="Nginx" scheme="https://blog.ganxy03.cn/tags/Nginx/"/>
     
   </entry>
   
